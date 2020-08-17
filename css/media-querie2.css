@@ -1,0 +1,237 @@
+/*
+*styling the template when the
+*screen's width is less than 1225px 
+*/
+@media screen and (max-width:1225px)
+{
+ /************
+about us part
+************/
+/****img****/
+.section2-aboutus img
+{
+    width: 30%;
+    height: 48%;
+    padding: 10px 20px 30px 0;
+}
+/********************
+gallery one part
+*********************/
+.section3-galleryone .picsofgal1 a img.gal1
+{
+    width:32%;
+    height: 32%;
+    margin: 0.25% ;
+}
+/********************
+second gallery part
+*********************/
+.section4-2ndgallery .picsofgal2 a img.gal2
+{
+    width: 48%;
+    height: 32%;
+    margin:0.25%;
+}
+/********************
+third gallery part
+*********************/
+.section5-3rdgallery .picsofgal3 a img.gal3
+{
+    width: 32%;
+    height: 32%;
+    margin: 0.25% ;
+}
+/********************
+Contact us part
+*********************/
+/******inputs******/
+.section6-contactus .input , .section6-contactus textarea.message
+{
+    width: 175%;
+}
+.section6-contactus .section6-contactus-paragraph
+{
+    width: 50%;
+    margin-left: 22%;
+}
+}
+       /*******************max-width:995px********************/
+/*
+*styling the template when the
+*screen's width is less than 995px 
+*/
+@media screen and (max-width:995px)
+{
+.container
+{
+   position: relative;
+}
+#side-bar
+{
+    top: 0;
+    height: 40vh;
+    width: 100%;
+}
+.main-menu
+{
+    visibility: hidden;
+}
+#second-side
+{
+    margin-left:0%;
+}
+section
+{
+    padding: 1% 2em 1em 4%;
+}
+ /************
+about us part
+************/
+/****img****/
+.section2-aboutus img
+{
+    width: 33%;
+    height: auto;
+    padding: 10px 20px 30px 0;
+}
+/********************
+gallery one part
+*********************/
+.section3-galleryone .picsofgal1 a img.gal1
+{
+    width:19%;
+    height: 19%;
+    margin: 0.25% ;
+}
+/********************
+second gallery part
+*********************/
+.section4-2ndgallery .picsofgal2 a img.gal2
+{
+    width: 32%;
+    height: 20%;
+    margin:0.25%;
+}
+/********************
+third gallery part
+*********************/
+.section5-3rdgallery .picsofgal3 a img.gal3
+{
+    width: 24%;
+    height: 24%;
+    margin: 0.25% ;
+}
+/********************
+Contact us part
+*********************/
+.section6-contactus
+{
+    display: block;
+}
+/******inputs******/
+.section6-contactus .input , .section6-contactus textarea.message
+{
+    width: 100%;
+}
+.section6-contactus .section6-contactus-paragraph
+{
+    width: 100%;
+    margin-left: -5%;
+}
+footer
+{
+     padding: 4em 2em 2em 4%;
+}
+}
+                /*******************max-width:770px********************/
+/*
+*styling the template when the
+*screen's width is less than 770px 
+*/
+@media screen and (max-width:770px)
+{
+ /************
+about us part
+************/
+.section2-aboutus
+{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4em 2em 5em 0em;
+    font-family: Calibri ;
+}
+/****img****/
+.section2-aboutus img
+{
+    margin-top: 5%;
+    width: 65%;
+    height: auto;
+    padding: 5% 20px 30px 0;
+}
+/********************
+gallery one part
+*********************/
+.section3-galleryone .picsofgal1 a img.gal1
+{
+    width:18.5%;
+    height: 18.5%;
+    margin: 0.25% ;
+}
+/********************
+third gallery part
+*********************/
+.section5-3rdgallery .picsofgal3 a img.gal3
+{
+    width: 23.5%;
+    height: 23.5%;
+    margin: 0.25% ;
+}
+}
+                /*******************max-width:575px********************/
+@media screen and (max-width:575px)
+{
+#side-bar
+{
+    top: 0;
+    height: 40vh;
+    width: 100%;
+}
+.img2
+{
+    background-image: url(neaty-01.jpg);
+    background-size: cover;
+    height: 70vh;
+       
+}
+.section1-welcomepart h1
+{
+    font-size: 2.5em;
+}
+/********************
+gallery one part
+*********************/
+.section3-galleryone .picsofgal1 a img.gal1
+{
+    width:48%;
+    height: 48%;
+    margin: 0.25% ;
+}
+/********************
+second gallery part
+*********************/
+.section4-2ndgallery .picsofgal2 a img.gal2
+{
+    width: 48%;
+    height: 32%;
+    margin:0.25%;
+}
+/********************
+third gallery part
+*********************/
+.section5-3rdgallery .picsofgal3 a img.gal3
+{
+    width: 48%;
+    height: 48%;
+    margin: 0.25% ;
+}
+}
